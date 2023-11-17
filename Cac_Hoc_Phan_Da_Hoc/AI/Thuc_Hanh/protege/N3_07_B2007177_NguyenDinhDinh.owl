@@ -1,0 +1,657 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="urn:absolute:TrangPhucTruyenThong"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="urn:absolute:TrangPhucTruyenThong">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Accessories"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bracelet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Costume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ethnic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Festival"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Necklace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Waist"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBracelet"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHat"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNecklace"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWaist"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hassubclass"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCostumeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#waerFestival"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BaNa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bells_Cham"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bells_Khmer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cham"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChoRo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chol_Vosa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CoTu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dam_Duong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dam_Trau"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dao_Necklace"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Derss_Mong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Don_Ta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dress_Ba_Na"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dress_Cham"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dress_Cho_Ro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dress_Co_Tu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dress_Dao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dress_E_De"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dress_Ha_Nhi_Den"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dress_Ha_Nhi_Do"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dress_Hoa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dress_Khmer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dress_Kinh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dress_Muong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dress_Pa_Then"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dress_Si_La"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dress_Tay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dress_Thai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EDe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fabric_Bells"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gold_Bracelet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HaNhiDen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HaNhiHoa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hat_Dao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hat_Ha_Nhi_Den"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hat_Ha_Nhi_Do"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hat_Mong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hat_Muong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hat_Pa_Then"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hat_Si_La"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hat_Tay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Headband"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hoa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ka_Te"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Khan_Pleu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Khmer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kho_Gia_Gia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kin_Pang_Then"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kinh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ko_Pan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Muong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nang_Hai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nao__Cong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nhay_Lua"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ok_Om_Bok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pa_Then"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pa_Then_Bells"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pkel_Plac"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Poon_Poong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SiLa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Silver_Bells"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Silver_Necklace"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Turband"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Bracelet"/>
+        <Class IRI="#Accessories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hat"/>
+        <Class IRI="#Accessories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Necklace"/>
+        <Class IRI="#Accessories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Waist"/>
+        <Class IRI="#Accessories"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Accessories"/>
+        <Class IRI="#Bracelet"/>
+        <Class IRI="#Hat"/>
+        <Class IRI="#Necklace"/>
+        <Class IRI="#Waist"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bracelet"/>
+        <Class IRI="#Costume"/>
+        <Class IRI="#Ethnic"/>
+        <Class IRI="#Festival"/>
+        <Class IRI="#Hat"/>
+        <Class IRI="#Necklace"/>
+        <Class IRI="#Waist"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Ethnic"/>
+        <NamedIndividual IRI="#BaNa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Waist"/>
+        <NamedIndividual IRI="#Bells_Cham"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Waist"/>
+        <NamedIndividual IRI="#Bells_Khmer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ethnic"/>
+        <NamedIndividual IRI="#Cham"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ethnic"/>
+        <NamedIndividual IRI="#ChoRo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Festival"/>
+        <NamedIndividual IRI="#Chol_Vosa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ethnic"/>
+        <NamedIndividual IRI="#CoTu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Festival"/>
+        <NamedIndividual IRI="#Dam_Duong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Festival"/>
+        <NamedIndividual IRI="#Dam_Trau"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ethnic"/>
+        <NamedIndividual IRI="#Dao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Necklace"/>
+        <NamedIndividual IRI="#Dao_Necklace"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Costume"/>
+        <NamedIndividual IRI="#Derss_Mong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Festival"/>
+        <NamedIndividual IRI="#Don_Ta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Costume"/>
+        <NamedIndividual IRI="#Dress_Ba_Na"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Costume"/>
+        <NamedIndividual IRI="#Dress_Cham"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Costume"/>
+        <NamedIndividual IRI="#Dress_Cho_Ro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Costume"/>
+        <NamedIndividual IRI="#Dress_Co_Tu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Costume"/>
+        <NamedIndividual IRI="#Dress_Dao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Costume"/>
+        <NamedIndividual IRI="#Dress_E_De"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Costume"/>
+        <NamedIndividual IRI="#Dress_Ha_Nhi_Den"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Costume"/>
+        <NamedIndividual IRI="#Dress_Ha_Nhi_Do"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Costume"/>
+        <NamedIndividual IRI="#Dress_Hoa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Costume"/>
+        <NamedIndividual IRI="#Dress_Khmer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Costume"/>
+        <NamedIndividual IRI="#Dress_Kinh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Costume"/>
+        <NamedIndividual IRI="#Dress_Muong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Costume"/>
+        <NamedIndividual IRI="#Dress_Pa_Then"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Costume"/>
+        <NamedIndividual IRI="#Dress_Si_La"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Costume"/>
+        <NamedIndividual IRI="#Dress_Tay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Costume"/>
+        <NamedIndividual IRI="#Dress_Thai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ethnic"/>
+        <NamedIndividual IRI="#EDe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Waist"/>
+        <NamedIndividual IRI="#Fabric_Bells"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ethnic"/>
+        <NamedIndividual IRI="#HaNhiDen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ethnic"/>
+        <NamedIndividual IRI="#HaNhiHoa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hat"/>
+        <NamedIndividual IRI="#Hat_Dao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hat"/>
+        <NamedIndividual IRI="#Hat_Ha_Nhi_Den"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hat"/>
+        <NamedIndividual IRI="#Hat_Ha_Nhi_Do"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hat"/>
+        <NamedIndividual IRI="#Hat_Mong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hat"/>
+        <NamedIndividual IRI="#Hat_Muong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hat"/>
+        <NamedIndividual IRI="#Hat_Pa_Then"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hat"/>
+        <NamedIndividual IRI="#Hat_Si_La"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hat"/>
+        <NamedIndividual IRI="#Hat_Tay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hat"/>
+        <NamedIndividual IRI="#Headband"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ethnic"/>
+        <NamedIndividual IRI="#Hoa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Festival"/>
+        <NamedIndividual IRI="#Ka_Te"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hat"/>
+        <NamedIndividual IRI="#Khan_Pleu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ethnic"/>
+        <NamedIndividual IRI="#Khmer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Festival"/>
+        <NamedIndividual IRI="#Kho_Gia_Gia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Festival"/>
+        <NamedIndividual IRI="#Kin_Pang_Then"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ethnic"/>
+        <NamedIndividual IRI="#Kinh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Festival"/>
+        <NamedIndividual IRI="#Ko_Pan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ethnic"/>
+        <NamedIndividual IRI="#Mong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ethnic"/>
+        <NamedIndividual IRI="#Muong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Festival"/>
+        <NamedIndividual IRI="#Nang_Hai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Festival"/>
+        <NamedIndividual IRI="#Nao__Cong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Festival"/>
+        <NamedIndividual IRI="#Nhay_Lua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Festival"/>
+        <NamedIndividual IRI="#Ok_Om_Bok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ethnic"/>
+        <NamedIndividual IRI="#Pa_Then"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Waist"/>
+        <NamedIndividual IRI="#Pa_Then_Bells"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hat"/>
+        <NamedIndividual IRI="#Pkel_Plac"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Festival"/>
+        <NamedIndividual IRI="#Poon_Poong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ethnic"/>
+        <NamedIndividual IRI="#SiLa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Waist"/>
+        <NamedIndividual IRI="#Silver_Bells"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Necklace"/>
+        <NamedIndividual IRI="#Silver_Necklace"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ethnic"/>
+        <NamedIndividual IRI="#Tay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ethnic"/>
+        <NamedIndividual IRI="#Thai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hat"/>
+        <NamedIndividual IRI="#Turband"/>
+    </ClassAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasBracelet"/>
+        <ObjectProperty IRI="#hasBracelet"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasHat"/>
+        <ObjectProperty IRI="#hasHat"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasNecklace"/>
+        <ObjectProperty IRI="#hasNecklace"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasWaist"/>
+        <ObjectProperty IRI="#hasWaist"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hassubclass"/>
+        <ObjectProperty IRI="#hassubclass"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isCostumeOf"/>
+        <ObjectProperty IRI="#isCostumeOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#waerFestival"/>
+        <ObjectProperty IRI="#waerFestival"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBracelet"/>
+        <Class IRI="#Costume"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHat"/>
+        <Class IRI="#Costume"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNecklace"/>
+        <Class IRI="#Costume"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWaist"/>
+        <Class IRI="#Costume"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hassubclass"/>
+        <Class IRI="#Accessories"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isCostumeOf"/>
+        <Class IRI="#Costume"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#waerFestival"/>
+        <Class IRI="#Costume"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBracelet"/>
+        <Class IRI="#Bracelet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHat"/>
+        <Class IRI="#Hat"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNecklace"/>
+        <Class IRI="#Necklace"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWaist"/>
+        <Class IRI="#Waist"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hassubclass"/>
+        <Class IRI="#Bracelet"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hassubclass"/>
+        <Class IRI="#Hat"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hassubclass"/>
+        <Class IRI="#Necklace"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hassubclass"/>
+        <Class IRI="#Waist"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isCostumeOf"/>
+        <Class IRI="#Ethnic"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#waerFestival"/>
+        <Class IRI="#Festival"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

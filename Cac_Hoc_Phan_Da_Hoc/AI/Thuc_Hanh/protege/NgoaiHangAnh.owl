@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/admin/ontologies/2022/10/NgoaiHangAnh"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/admin/ontologies/2022/10/NgoaiHangAnh">
+    <Prefix name="" IRI="http://www.semanticweb.org/admin/ontologies/2022/10/NgoaiHangAnh"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Arsenal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NgoaiHangAnh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Player"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hastest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aaron_Ramsdale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Albert_Sambi_Lokonga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Benjamin_White"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bukayo_Saka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cédric_Soares"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eddie_Nketiah"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Emile_Smith_Rowe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fábio_Vieira"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gabriel_Jesus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gabriel_Magalhães"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gabriel_Martinelli"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kieran_Tierney"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Martin_Ødegaard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reiss_Nelson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rob_Holding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Takehiro_Tomiyasu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thomas_Partey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#William_Saliba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#test1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#test2"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Arsenal"/>
+        <Class IRI="#NgoaiHangAnh"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Player"/>
+        <Class IRI="#Arsenal"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Aaron_Ramsdale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Albert_Sambi_Lokonga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Benjamin_White"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Bukayo_Saka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Cédric_Soares"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Eddie_Nketiah"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Emile_Smith_Rowe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Fábio_Vieira"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Gabriel_Jesus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Gabriel_Magalhães"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Gabriel_Martinelli"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Kieran_Tierney"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Martin_Ødegaard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Reiss_Nelson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Rob_Holding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Takehiro_Tomiyasu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#Thomas_Partey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Player"/>
+        <NamedIndividual IRI="#William_Saliba"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hastest"/>
+        <NamedIndividual IRI="#test1"/>
+        <NamedIndividual IRI="#Rob_Holding"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hastest"/>
+        <ObjectProperty IRI="#hastest"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hastest"/>
+        <Class IRI="#Player"/>
+    </ObjectPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

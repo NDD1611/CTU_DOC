@@ -1,0 +1,42 @@
+%luy thừa
+luythua(X, 1, X) :- !.
+luythua(X, Y, Z) :- Y1 is Y-1, luythua(X, Y1, Z1), Z is Z1*X.
+
+%giai thua
+giaithua(0, 1) :- !.
+giaithua(X, Y) :- X1 is X-1, giaithua(X1, Y1), Y is X*Y1.
+
+%to hop chap k cua n
+tohop(K, N, Y) :- giaithua(N, Q1), giaithua(K, Q2), giaithua(N-K, Q3), Y is Q1 / (Q2*Q3).
+
+%thap ha noi
+move(1,X,Y,_) :-
+   write('Move top disk from '), write(X), write(' to '), write(Y), nl.
+move(N,X,Y,Z) :-
+   N>1,
+   M is N-1,
+   move(M,X,Z,Y),
+   move(1,X,Y,_),
+   move(M,Z,Y,X).
+
+%fibonaci
+fib(0, 0) :- !.
+fib(1, 1) :- !.
+fib(X, Y) :- N1 is X-1, N2 is X-2, fib(N1, Y1), fib(N2, Y2), Y is Y1+Y2.
+
+%4.1 and 4.2
+noids([], L2, L2).    
+noids([X | L1], L2, [X | L3]) :- noids(L1, L2, L3).
+addptu(L, X, NewL) :- noids(L, [X], NewL).
+
+%4.3 query ptle([1,2,3,4,5,6,7,8,9,13,15,20], L).
+is_odd(I) :- 0 =\= I mod 2.
+ptle(L, Newlist) :- include(is_odd, L, Newlist).
+
+%4.5 tongptle([1,2,3,4,5,6,7,8,9,13,15,20]).
+tongptle([], 0):- !.
+tongptle([H|D], T):- 0 =\= H mod 2, tongptle(D, T1), T is H+T1, !.
+tongptle([_|D], T):- tongptle(D, T1), T is T1.
+
+
+
